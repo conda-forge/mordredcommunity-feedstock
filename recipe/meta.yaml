@@ -25,6 +25,8 @@ requirements:
     - six
     - numpy
     - networkx
+    - packaging
+    - pandas
 
 test:
   imports:
