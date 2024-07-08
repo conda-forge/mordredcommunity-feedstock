@@ -1,5 +1,5 @@
 {% set name = "mordredcommunity" %}
-{% set version = "2.0.5" %}
+{% set version = "2.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mordredcommunity-{{ version }}.tar.gz
-  sha256: 36dc5e586ab400516d5d805c20346e48e80dc354fce39e46cb6f42d6c53dad52
+  sha256: a697866278b606b25012e62492e9e17ace50355618edb8686090365336cda3df
 
 build:
   noarch: python
