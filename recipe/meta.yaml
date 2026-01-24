@@ -1,6 +1,6 @@
 {% set name = "mordredcommunity" %}
 {% set version = "2.0.7" %}
-{% set python_min = "3.8" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
