@@ -1,6 +1,6 @@
 {% set name = "mordredcommunity" %}
-{% set version = "2.0.6" %}
-{% set python_min = "3.8" %}
+{% set version = "2.0.7" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mordredcommunity-{{ version }}.tar.gz
-  sha256: a697866278b606b25012e62492e9e17ace50355618edb8686090365336cda3df
+  sha256: 6719be351c5fd80461739a4e79acb4480f0c9fb1eb2f7a3ab576c9092e1d74a8
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
